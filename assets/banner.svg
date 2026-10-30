@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="100%" height="260" role="img" aria-label="David Sanchez - Engenharia da Computação | Software · Dados &amp; IA · Salesforce">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0f2027"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#3fb950"/>
+      <stop offset="100%" stop-color="#00a1e0"/>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#3fb950" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#00a1e0" stop-opacity="0.20"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="260" rx="14" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="258" rx="13" fill="none" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Subtle background waves -->
+  <path d="M0,195 C300,245 550,140 850,195 C1020,225 1120,180 1200,190 L1200,260 L0,260 Z" fill="url(#waveGrad)"/>
+  <path d="M0,220 C260,175 620,250 920,205 C1060,185 1140,210 1200,205 L1200,260 L0,260 Z" fill="url(#waveGrad)" opacity="0.7"/>
+
+  <!-- Window controls (code editor style) -->
+  <circle cx="34" cy="28" r="6.5" fill="#ff5f56"/>
+  <circle cx="56" cy="28" r="6.5" fill="#ffbd2e"/>
+  <circle cx="78" cy="28" r="6.5" fill="#27c93f"/>
+  <text x="104" y="33" fill="#8b949e" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13">david_sanchez.py — portfolio</text>
+
+  <!-- Decorative code brackets -->
+  <text x="58" y="148" fill="#30363d" font-family="'JetBrains Mono', Consolas, monospace" font-size="92" font-weight="700" opacity="0.45">{</text>
+  <text x="1100" y="148" fill="#30363d" font-family="'JetBrains Mono', Consolas, monospace" font-size="92" font-weight="700" opacity="0.45">}</text>
+
+  <!-- Main Heading -->
+  <text x="600" y="108" text-anchor="middle" fill="#f0f6fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="0.5">
+    David Sanchez
+  </text>
+
+  <!-- Accent Divider -->
+  <rect x="460" y="125" width="280" height="3.5" rx="2" fill="url(#accent)"/>
+
+  <!-- Subtitle -->
+  <text x="600" y="160" text-anchor="middle" fill="#c9d1d9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="500">
+    Engenharia da Computação @ Instituto Mauá de Tecnologia (IMT)
+  </text>
+
+  <!-- Code-style tagline -->
+  <text x="600" y="196" text-anchor="middle" fill="#58a6ff" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="15" font-weight="600">
+    &gt; Software Engineering  ·  Data &amp; Applied AI  ·  Salesforce (LWC / Apex)  ·  Business
+  </text>
+</svg>
